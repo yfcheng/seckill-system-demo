@@ -3,7 +3,7 @@ package com.tanyihao.dao;
 /**
  * Created by tanhao on 16-12-27.
  */
-public interface SuccessKilled {
+public interface SuccessKilledDao {
 
     /**
      * 插入购买明细，可过滤重复 联合主键
@@ -18,6 +18,6 @@ public interface SuccessKilled {
      * @param seckillId
      * @return
      */
-    SuccessKilled queryByIdWithSeckill(long seckillId);
+    SuccessKilledDao queryByIdWithSeckill(long seckillId);
 
 }
