@@ -8,3 +8,4 @@
 * 创建数据库表
 * 新建实体类和DAO接口
 * mybatis实现dao接口以及与spring整合
+* service层的实现与测试

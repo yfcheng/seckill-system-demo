@@ -30,3 +30,5 @@ create table  success_killed(
   PRIMARY KEY (seckill_id, user_phone),
   KEY idx_create_time(create_time)
 )ENGINE=InnoDB  DEFAULT CHARSET='utf8' COMMENT='秒杀成功明细表';
+
+ALTER TABLE success_killed MODIFY `create_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP;
